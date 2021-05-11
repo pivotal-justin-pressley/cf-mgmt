@@ -1,0 +1,10 @@
+org: system
+spaces:
+- system
+- notifications-with-ui
+- autoscaling
+- metric-registrar-monitor
+- nfs
+- smb
+- healthwatch2
+enable-delete-spaces: true

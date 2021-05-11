@@ -1,0 +1,12 @@
+orgs:
+- system
+- jsmith
+- jpressley
+enable-delete-orgs: false
+protected_orgs:
+- ^system$
+- splunk-nozzle-org
+- redis-test-ORG
+- appdynamics-org
+- credhub-service-broker-org
+- ^p-
