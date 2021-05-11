@@ -17,7 +17,7 @@ org-auditor:
   saml_users: []
   ldap_groups: []
 private-domains:
-- run-28.slot-59.pez.vmware.com
+- run-13.slot-59.pez.vmware.com
 enable-remove-private-domains: false
 shared-private-domains: []
 enable-remove-shared-private-domains: false

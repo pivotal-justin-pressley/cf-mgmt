@@ -1,7 +1,6 @@
 orgs:
 - system
 - jsmith
-- jpressley
 enable-delete-orgs: false
 protected_orgs:
 - ^system$

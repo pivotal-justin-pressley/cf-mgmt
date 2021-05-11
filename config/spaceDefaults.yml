@@ -1,17 +1,13 @@
 space-developer:
-  ldap_users:
-  - jsmith
-  - swalls
+  ldap_users: []
   users: []
   saml_users: []
-  ldap_groups:
-  - cf_users
+  ldap_groups: []
 space-manager:
   ldap_users: []
   users: []
   saml_users: []
-  ldap_groups:
-  - cf_admin
+  ldap_groups: []
 space-auditor:
   ldap_users: []
   users: []
