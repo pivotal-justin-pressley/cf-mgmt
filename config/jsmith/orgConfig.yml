@@ -22,6 +22,6 @@ enable-remove-shared-private-domains: false
 enable-org-quota: false
 paid-service-plans-allowed: false
 enable-remove-users: false
-default_isolation_segment: ""
+default_isolation_segment: "isoseg"
 named_quota: default
 metadata: null

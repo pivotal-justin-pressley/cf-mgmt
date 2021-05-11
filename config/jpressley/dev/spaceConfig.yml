@@ -26,7 +26,7 @@ enable-space-quota: true
 enable-security-group: false
 enable-unassign-security-group: true
 enable-remove-users: false
-isolation_segment: ""
+isolation_segment: "isoseg"
 named-security-groups: []
 paid-service-plans-allowed: false
 named_quota: ""
