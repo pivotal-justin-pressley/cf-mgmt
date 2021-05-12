@@ -1,28 +1,27 @@
 org: jpressley
 space: dev
 space-developer:
-  ldap_users:
-  - jsmith
-  - swalls
+  ldap_users: []
   users:
-  - admin
   - jpressley
   saml_users: []
   ldap_groups: []
 space-manager:
-  ldap_users:
+  ldap_users: []
   users:
-  - admin
   - jpressley
   saml_users: []
-  ldap_groups: []
+  ldap_groups:
+  - cf_admin
 space-auditor:
   ldap_users: []
-  users: []
+  users:
+  - jpressley
   saml_users: []
-  ldap_groups: []
-allow-ssh: false
-enable-space-quota: true
+  ldap_groups:
+  - cf_users
+allow-ssh: true
+enable-space-quota: false
 enable-security-group: false
 enable-unassign-security-group: true
 enable-remove-users: false

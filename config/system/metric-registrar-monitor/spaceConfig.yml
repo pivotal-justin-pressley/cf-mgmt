@@ -2,19 +2,26 @@ org: system
 space: metric-registrar-monitor
 space-developer:
   ldap_users: []
-  users: []
+  users:
+  - admin
+  - jpressley
   saml_users: []
-  ldap_groups: []
+  ldap_groups:
+  - cf_admin
 space-manager:
   ldap_users: []
-  users: []
+  users:
+  - admin
+  - jpressley
   saml_users: []
-  ldap_groups: []
+  ldap_groups:
+  - cf_admin
 space-auditor:
   ldap_users: []
   users: []
   saml_users: []
-  ldap_groups: []
+  ldap_groups:
+  - cf_users
 allow-ssh: true
 enable-space-quota: false
 enable-security-group: false

@@ -3,22 +3,24 @@ space: dev
 space-developer:
   ldap_users:
   - jsmith
-  users:
-  - admin
+  users: []
   saml_users: []
   ldap_groups: []
 space-manager:
   ldap_users:
   - jsmith
-  users:
-  - admin
-  saml_users: []
-  ldap_groups: []
-space-auditor:
-  ldap_users: []
   users: []
   saml_users: []
-  ldap_groups: []
+  ldap_groups:
+  - cf_admin
+space-auditor:
+  ldap_users:
+  - jsmith
+  users:
+  - jpressley
+  saml_users: []
+  ldap_groups:
+  - cf_users
 allow-ssh: true
 enable-space-quota: false
 enable-security-group: false

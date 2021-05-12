@@ -1,20 +1,20 @@
-org: jsmith
+org: swalls
 org-billingmanager:
   ldap_users:
-  - jsmith
+  - swalls
   users: []
   saml_users: []
   ldap_groups: []
 org-manager:
   ldap_users:
-  - jsmith
+  - swalls
   users: []
   saml_users: []
   ldap_groups:
   - cf_admin
 org-auditor:
   ldap_users:
-  - jsmith
+  - swalls
   users:
   - jpressley
   saml_users: []
