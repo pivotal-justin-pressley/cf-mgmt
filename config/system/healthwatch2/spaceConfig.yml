@@ -7,21 +7,21 @@ space-developer:
   - jpressley
   saml_users: []
   ldap_groups:
-  - cf_admin
+  - ldap_admin
 space-manager:
   ldap_users: []
   users:
   - admin
+  saml_users: []
+  ldap_groups:
+  - ldap_admin
+space-auditor:
+  ldap_users: []
+  users:
   - jpressley
   saml_users: []
   ldap_groups:
-  - cf_admin
-space-auditor:
-  ldap_users: []
-  users: []
-  saml_users: []
-  ldap_groups:
-  - cf_users
+  - ldap_users
 allow-ssh: true
 enable-space-quota: false
 enable-security-group: false
