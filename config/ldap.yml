@@ -5,7 +5,7 @@ userSearchBase: ou=users,dc=tanzu,dc=vmware,dc=com
 userNameAttribute: sn
 userObjectClass: inetOrgPerson
 groupSearchBase: ou=groups,dc=tanzu,dc=vmware,dc=com
-groupAttribute: cn
+groupAttribute: memberUid
 groupObjectClass: posixGroup
 origin: ldap
 insecure_skip_verify: true
