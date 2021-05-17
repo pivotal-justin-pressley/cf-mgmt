@@ -2,10 +2,10 @@ enabled: true
 ldapPort: 636
 use_tls: true
 userSearchBase: ou=users,dc=tanzu,dc=vmware,dc=com
-userNameAttribute: cn
+userNameAttribute: uidNumber
 userObjectClass: inetOrgPerson
 groupSearchBase: ou=groups,dc=tanzu,dc=vmware,dc=com
-groupAttribute: cn
+groupAttribute: gidNumber
 groupObjectClass: posixGroup
 origin: ldap
 insecure_skip_verify: true
