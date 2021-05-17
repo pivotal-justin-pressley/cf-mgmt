@@ -9,7 +9,7 @@ groupSearchBase: ou=groups,dc=tanzu,dc=vmware,dc=com
 groupAttribute: memberUid
 groupObjectClass: posixGroup
 origin: ldap
-insecure_skip_verify: false
+insecure_skip_verify: true
 ca_cert: |
   -----BEGIN CERTIFICATE-----
   MIIESTCCAjGgAwIBAgIMYKKzqjSwwd4WwmEOMA0GCSqGSIb3DQEBCwUAMBAxDjAM
