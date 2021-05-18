@@ -11,13 +11,13 @@ org-manager:
   ldap_groups:
   - ldap_admin
 org-auditor:
-  ldap_users:
-  - ldap_jpressley
+  ldap_users: []
   users:
   - jpressley
   saml_users: []
   ldap_groups:
   - ldap_admin
+  - ldap_users
 private-domains: []
 enable-remove-private-domains: false
 shared-private-domains: []

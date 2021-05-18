@@ -11,13 +11,13 @@ org-manager:
   ldap_groups:
   - ldap_admin
 org-auditor:
-  ldap_users:
-  - ldap_jpressley
+  ldap_users: []
   users:
   - jpressley
   saml_users: []
   ldap_groups:
   - ldap_admin
+  - ldap_users
 private-domains:
 - run-13.slot-59.pez.vmware.com
 enable-remove-private-domains: false

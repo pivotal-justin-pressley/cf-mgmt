@@ -1,12 +1,12 @@
 org: jpressley
 space: dev
 space-developer:
-  ldap_users:
-  - ldap_jpressley
+  ldap_users: []
   users:
   - jpressley
   saml_users: []
-  ldap_groups: []
+  ldap_groups:
+  - ldap_users
 space-manager:
   ldap_users: []
   users: []
