@@ -6,7 +6,7 @@ userNameAttribute: uid
 userObjectClass: inetOrgPerson
 groupSearchBase: ou=groups,dc=tanzu,dc=vmware,dc=com
 groupAttribute: memberUid
-groupObjectClass: groupOfNames
+groupObjectClass: posixGroup
 origin: ldap
 insecure_skip_verify: true
 ca_cert: |
