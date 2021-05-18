@@ -1,26 +1,21 @@
 org: jpressley
 org-billingmanager:
   ldap_users: []
-  users:
-  - admin
-  - jpressley
+  users: []
   saml_users: []
-  ldap_groups:
-  - ldap_admin
+  ldap_groups: []
 org-manager:
   ldap_users:
-  - ldap_admin
+  - ldap_jpressley
   users:
-  - admin
+  - jpressley
   saml_users: []
   ldap_groups: []
 org-auditor:
   ldap_users: []
-  users:
-  - jpressley
+  users: []
   saml_users: []
-  ldap_groups:
-  - ldap_users
+  ldap_groups: []
 private-domains: []
 enable-remove-private-domains: false
 shared-private-domains: []

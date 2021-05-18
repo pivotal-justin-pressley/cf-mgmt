@@ -8,20 +8,15 @@ space-developer:
   saml_users: []
   ldap_groups: []
 space-manager:
-  ldap_users:
-  - ldap_jpressley
-  users:
-  - jpressley
+  ldap_users: []
+  users: []
   saml_users: []
-  ldap_groups:
-  - ldap_admin
+  ldap_groups: []
 space-auditor:
   ldap_users: []
-  users:
-  - jpressley
+  users: []
   saml_users: []
-  ldap_groups:
-  - ldap_users
+  ldap_groups: []
 allow-ssh: true
 enable-space-quota: false
 enable-security-group: false
