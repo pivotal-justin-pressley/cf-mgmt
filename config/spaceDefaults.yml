@@ -8,11 +8,11 @@ space-manager:
   users: []
   saml_users: []
   ldap_groups:
-  - cf_admin
+  - ldap_admin
 space-auditor:
   ldap_users: []
   users:
   - jpressley
   saml_users: []
   ldap_groups:
-  - cf_users
+  - ldap_users
