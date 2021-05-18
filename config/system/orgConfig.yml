@@ -3,7 +3,6 @@ org-billingmanager:
   ldap_users: []
   users:
   - admin
-  - jpressley
   saml_users: []
   ldap_groups:
   - ldap_admin
@@ -13,7 +12,8 @@ org-manager:
   users:
   - admin
   saml_users: []
-  ldap_groups: []
+  ldap_groups:
+  - ldap_admin
 org-auditor:
   ldap_users: []
   users:
