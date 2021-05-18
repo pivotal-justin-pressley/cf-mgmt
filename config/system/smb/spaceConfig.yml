@@ -2,8 +2,7 @@ org: system
 space: smb
 space-developer:
   ldap_users: []
-  users:
-  - admin
+  users: []
   saml_users: []
   ldap_groups:
   - ldap_admin

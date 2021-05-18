@@ -6,16 +6,18 @@ org-billingmanager:
   ldap_groups: []
 org-manager:
   ldap_users: []
-  users:
-  - admin
+  users: []
   saml_users: []
   ldap_groups:
   - ldap_admin
 org-auditor:
-  ldap_users: []
-  users: []
+  ldap_users:
+  - ldap_jpressley
+  users:
+  - jpressley
   saml_users: []
-  ldap_groups: []
+  ldap_groups:
+  - ldap_admin
 private-domains:
 - run-13.slot-59.pez.vmware.com
 enable-remove-private-domains: false
