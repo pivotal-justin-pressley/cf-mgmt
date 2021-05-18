@@ -7,4 +7,4 @@ spaces:
 - nfs
 - smb
 - healthwatch2
-enable-delete-spaces: true
+enable-delete-spaces: false
