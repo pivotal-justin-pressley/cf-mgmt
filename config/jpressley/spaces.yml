@@ -1,4 +1,4 @@
 org: jpressley
 spaces:
 - dev
-enable-delete-spaces: true
+enable-delete-spaces: false

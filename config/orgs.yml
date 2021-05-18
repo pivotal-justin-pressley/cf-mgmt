@@ -1,6 +1,5 @@
 orgs:
-- jsmith
-- swalls
+- system
 - jpressley
 enable-delete-orgs: false
 protected_orgs:
