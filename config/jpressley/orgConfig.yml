@@ -5,12 +5,12 @@ org-billingmanager:
   saml_users: []
   ldap_groups: []
 org-manager:
-  ldap_users:
-  - ldap_jpressley
+  ldap_users: []
   users:
-  - jpressley
+  - admin
   saml_users: []
-  ldap_groups: []
+  ldap_groups:
+  - ldap_admin
 org-auditor:
   ldap_users: []
   users: []
