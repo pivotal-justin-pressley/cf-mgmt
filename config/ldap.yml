@@ -2,7 +2,7 @@ enabled: true
 ldapPort: 636
 use_tls: true
 userSearchBase: ou=users,dc=tanzu,dc=vmware,dc=com
-userNameAttribute: givenName
+userNameAttribute: uid
 userObjectClass: inetOrgPerson
 groupSearchBase: ou=groups,dc=tanzu,dc=vmware,dc=com
 groupAttribute: memberUid
