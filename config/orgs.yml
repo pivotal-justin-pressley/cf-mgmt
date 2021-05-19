@@ -1,6 +1,7 @@
 orgs:
-- system
-- jpressley
+- dev
+- qa
+- prod
 enable-delete-orgs: false
 protected_orgs:
 - ^system$
