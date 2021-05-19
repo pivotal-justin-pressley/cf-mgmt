@@ -1,0 +1,4 @@
+org: qa
+spaces:
+- qa
+enable-delete-spaces: false

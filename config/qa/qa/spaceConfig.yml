@@ -1,0 +1,29 @@
+org: qa
+space: qa
+space-developer:
+  ldap_users: []
+  users:
+  - jpressley
+  saml_users: []
+  ldap_groups:
+  - ldap_users
+space-manager:
+  ldap_users: []
+  users: []
+  saml_users: []
+  ldap_groups: []
+space-auditor:
+  ldap_users: []
+  users: []
+  saml_users: []
+  ldap_groups: []
+allow-ssh: true
+enable-space-quota: false
+enable-security-group: false
+enable-unassign-security-group: true
+enable-remove-users: true
+isolation_segment: "isoseg"
+named-security-groups: []
+paid-service-plans-allowed: false
+named_quota: ""
+metadata: null
