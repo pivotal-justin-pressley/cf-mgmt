@@ -14,7 +14,7 @@ org-auditor:
   users:
   - jpressley
   saml_users: []
-  ldap_groups: []
+  ldap_groups:
   - ldap_users
 private-domains: []
 enable-remove-private-domains: false
