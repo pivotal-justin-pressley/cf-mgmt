@@ -25,7 +25,7 @@ shared-private-domains: []
 enable-remove-shared-private-domains: false
 enable-org-quota: false
 paid-service-plans-allowed: false
-enable-remove-users: false
+enable-remove-users: true
 default_isolation_segment: ""
 named_quota: runaway
 metadata: null

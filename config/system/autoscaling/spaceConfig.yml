@@ -20,7 +20,7 @@ allow-ssh: true
 enable-space-quota: false
 enable-security-group: false
 enable-unassign-security-group: true
-enable-remove-users: false
+enable-remove-users: true
 isolation_segment: ""
 named-security-groups: []
 paid-service-plans-allowed: false
