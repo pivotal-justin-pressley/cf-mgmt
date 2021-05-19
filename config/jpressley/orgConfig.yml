@@ -8,13 +8,15 @@ org-manager:
   ldap_users: []
   users: []
   saml_users: []
-  ldap_groups: []
+  ldap_groups:
+  - ldap_admin
 org-auditor:
   ldap_users: []
   users:
   - jpressley
   saml_users: []
   ldap_groups:
+  - ldap_admin
   - ldap_users
 private-domains: []
 enable-remove-private-domains: false
