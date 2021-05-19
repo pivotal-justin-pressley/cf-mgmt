@@ -1,10 +1,8 @@
 space-developer:
   ldap_users: []
-  users:
-  - jpressley
+  users: []
   saml_users: []
-  ldap_groups:
-  - ldap_users
+  ldap_groups: []
 space-manager:
   ldap_users: []
   users: []
