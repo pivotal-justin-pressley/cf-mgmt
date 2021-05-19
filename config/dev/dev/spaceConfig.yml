@@ -2,11 +2,10 @@ org: dev
 space: dev
 space-developer:
   ldap_users: []
-  users:
-  - jpressley
+  users: []
   saml_users: []
   ldap_groups:
-  - ldap_users
+  - ldap_dev
 space-manager:
   ldap_users: []
   users: []

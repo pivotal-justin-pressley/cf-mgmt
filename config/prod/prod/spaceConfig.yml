@@ -2,11 +2,10 @@ org: prod
 space: prod
 space-developer:
   ldap_users: []
-  users:
-  - jpressley
+  users: []
   saml_users: []
   ldap_groups:
-  - ldap_users
+  - ldap_prod
 space-manager:
   ldap_users: []
   users: []

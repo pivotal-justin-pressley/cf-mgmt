@@ -9,7 +9,7 @@ org-manager:
   users: []
   saml_users: []
   ldap_groups:
-  - ldap_admin
+  - ldap_qa
 org-auditor:
   ldap_users: []
   users:
