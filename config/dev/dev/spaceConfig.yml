@@ -5,7 +5,7 @@ space-developer:
   users: []
   saml_users: []
   ldap_groups:
-  - ldap_dev
+  - dev
 space-manager:
   ldap_users: []
   users: []
