@@ -12,8 +12,7 @@ org-manager:
   - dev
 org-auditor:
   ldap_users: []
-  users:
-  - ldap_jpressley
+  users: []
   saml_users: []
   ldap_groups:
   - admin
