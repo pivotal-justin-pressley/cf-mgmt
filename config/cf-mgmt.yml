@@ -7,7 +7,7 @@ staging-security-groups:
 shared-domains:
   apps.internal:
     internal: true
-  cfapps-13.slot-59.pez.vmware.com:
+  cfapps-08.slot-34.tanzu-gss-labs.vmware.com:
     internal: false
 enable-remove-shared-domains: true
 metadata-prefix: cf-mgmt.pivotal.io
