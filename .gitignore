@@ -3,5 +3,4 @@ cf-mgmt-config
 cf-mgmt-config-osx
 cf-mgmt-osx
 config/cf-mgmt.yml
-config/ldap.yml
 config/vars.yml
